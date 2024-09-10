@@ -28,6 +28,7 @@ console.log(url.replace('%50', '_'))
 
 console.log(url.includes('harry'))
 
+// comparing srtings
 const a = "a"
 const b = "b"
 if (a < b) {
@@ -37,3 +38,12 @@ if (a < b) {
     } else {
         console.log(`${a} and ${b} are equal.`);
     }
+
+
+    // character search sring using [.charAt()]
+const user = "harmaini"
+console.log("harmaini".charAt(2));
+
+const menu = "Biryani"
+console.log("Biryani"[0]);
+console.log("Biryani".indexOf('y'));
