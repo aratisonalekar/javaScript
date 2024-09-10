@@ -37,3 +37,15 @@ const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+function calculateCircumference(redius) {
+    return 2 * Math.PI * redius;
+}
+console.log(Math.PI);
+console.log(calculateCircumference(6));
+
+function calculateCircumference(redius) {
+    return Math.PI * (redius + redius);
+}
+
+console.log(calculateCircumference(2))
