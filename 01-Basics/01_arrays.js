@@ -38,3 +38,13 @@ console.log(myn1);
 console.log("c ", myArr);
 
 console.log(myn2);
+
+// pop mwthod
+
+const animal = ['donky', 'horse', 'cow', 'goat', 'buffelow']
+console.log(animal.pop());
+console.log(animal);
+console.log(typeof(animal));
+animal.pop();
+console.log(animal);
+
