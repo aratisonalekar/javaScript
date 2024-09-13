@@ -1,7 +1,7 @@
-// singletone (jewha apn litrals use krnr tewha singltone nasne 
-//Singletone fakt constructor madhe banato ex: object.create)
+// singleton (jewha apn litrals use krnr tewha singlton nasne 
+//Singleton fakt constructor madhe banato ex: object.create)
 
-// object literals
+// #object literals#
 
 // symbol
 const mySym = Symbol("key1")
@@ -35,6 +35,6 @@ jsUser.greetingTwo = function(){
     console.log(`Hello JS users, ${this.name}`); // name la refrence karaych ahe tya sathi  
 }
 
-console.log(jsUser.greetingTwo());
+console.log(jsUser.greetingTwo()); //Hello JS users, hulk
 console.log(jsUser.greeting); //[Function (anonymous)] fuction exicute nahi zala bas fun ch return aala ahe
-console.log(jsUser.greeting()); 
+console.log(jsUser.greeting()); //Hello JS users
