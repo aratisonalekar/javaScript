@@ -32,3 +32,7 @@ let score2 = 200
 let score3 = 300
 
 console.log(Array.of(score1, score2, score3));
+
+const isNewNumber = (currentNumber) => currentNumber < 50
+const num1 = [1, 38, 45, 23, 10, 22];
+console.log(num1.every(isNewNumber));
