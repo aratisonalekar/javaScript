@@ -37,8 +37,30 @@ const obj2 = {3: "a", 4: "b"}
 const obj3 = {...obj1, ...obj2} //% this is mwthod mostly used spread method
 //console.log(obj3);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//return boolean madhe yenr
+//console.log(tinderUser);
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));//return boolean madhe yenr
+
+const zoombaCourse = {
+    coursename: "morning class",
+    price: "999",
+    courseInstructor: "Natash"
+}
+//console.log(zoombaCourse.courseInstructor);
+//const {courseInstructor} = zoombaCourse
+//console.log(courseInstructor);
+
+const {courseInstructor: instructor} = zoombaCourse
+console.log(instructor);
+
+//react method
+const navbar = ({company}) /*(prop.company) old method in react*/ => {
+
+}
+
+navbar(company = "zoomba") 
+//console.log(company);
+
+
