@@ -65,5 +65,43 @@ function loginUserMessage(username = "Tonny"){
     return `${username} just logged in`
 }
 //console.log(loginUserMessage("Natash"));
-console.log(loginUserMessage("Thor")); //Thor just logged in
-console.log(loginUserMessage());//Tonny just logged in
+//console.log(loginUserMessage("Thor")); //Thor just logged in
+//console.log(loginUserMessage());//Tonny just logged in
+
+function calculateCartPrise(...num1){ //(...  )=> reast operator
+    return num1
+}
+
+//console.log(calculateCartPrise(200, 400, 234, 2899))
+
+function calculateCartPrise(val1, val2, ...num1){ //(...  )=> reast operator
+    return num1
+}
+
+console.log(calculateCartPrise(200, 400, 234, 2899)) //[ 234, 2899 ] because 200=val1 400-val2
+
+
+const customer = {
+    customername: "Vision",
+    customerfee: 999
+}
+
+function handleobject(anyobject){
+    console.log(`customer name is ${anyobject.customername} and there cource fee ${anyobject.customerfee}`);
+}
+
+//handleobject(customer)
+
+handleobject({
+    customername: "Wonda",
+    customerfee: 1999
+})
+
+const myNewArray = [288, 300, 450, 294]
+
+function returnSecondValu(getArray){
+    return getArray[3]
+}
+
+//console.log(returnSecondValu(myNewArray));
+console.log(returnSecondValu([288, 300, 450, 294]));
