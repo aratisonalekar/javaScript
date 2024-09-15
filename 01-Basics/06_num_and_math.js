@@ -49,3 +49,6 @@ function calculateCircumference(redius) {
 }
 
 console.log(calculateCircumference(2))
+
+let cubRoot = 3
+console.log(Math.cbrt(729));
